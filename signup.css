@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+    margin:0;  
+}
+
+.container{
+    width: 400px;
+    background-color:wheat;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.header{
+    background-color: lightgoldenrodyellow;
+    padding: 10px 20px;
+}
+.form{
+    padding: 20px 40px;
+}
+
+.form-control{
+    margin-bottom:10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.form-control lable {
+    display: inline-block;
+    margin-bottom:5px;
+}
+.form-control input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border:2px solid lightyellow;
+}
+
+.form-control.success input{
+    border:2px solid green;
+}
+.form-control.error input{
+    border:2px solid red;
+}
+.form-control small{
+    position:absolute;
+    margin: 3px;
+    visibility: hidden;
+}
+button{
+    background-color: darkred;
+    color:#fff;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius:4px;
+    border:2px solid darkred;
+    cursor: pointer;
+}
